@@ -1,7 +1,7 @@
 # Challenger Amigo Secreto
 #### Um site que o usuário adiciona nomes em uma lista, com o objetivo de sortear um dos nomes.
 
-![image]()
+![image](assets/Tela-amigo-secreto.png)
 
 ## 🔨 Funcionalidades do projeto
 
