@@ -1,12 +1,11 @@
 # Challenger Amigo Secreto
-![image](assets/Tela-amigo-secreto.png)
+#### Um site que o usuário adiciona nomes em uma lista, com o objetivo de sortear um dos nomes.
 
-Um site que o usuário adiciona nomes em uma lista, com o objetivo de sortear um dos nomes.
+![image](assets/Tela-amigo-secreto.png)
 
 ## 🔨 Funcionalidades do projeto
 
 Funcionalidade bem intuitiva, basta apenas adicionar os nomes e sortear.
-![](img/amostra.gif)
 
 ## ✔️ Técnicas utilizadas
 
@@ -30,6 +29,9 @@ As técnicas e tecnologias utilizadas pra isso são:
 Esse pojeto tinha como desafio realizar todo o **Back-End** com o JavaScript. A parte do HTML E CSS já estavam quase toda completa.
 Como iniciante tive algumas dificuldades em relação a conxeção entre o HTML e o JavaScript. Mas recorri a documentação e algumas aulas do [Curso de Lógica de Programação](https://cursos.alura.com.br/course/logica-programacao-mergulhe-programacao-javascript) para me ajudar a concluir.
 Pude reforçar meus conhecimentos, aprimorar e preencher algumas lacunas de conhecimentos sobre essas ferramentas.
+
+## 🙏🏽 Agradecimentos
+[Alura](https://www.alura.com.br/?srsltid=AfmBOoppx95k3yHj3Iem3rrS2-mdBrwFRhPrKmX4I_I2AWGO5Od-uU3Y).
 
 ## Feito Por:
 ### Ellan Alves
