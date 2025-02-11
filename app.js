@@ -40,12 +40,14 @@ function exibirListaNaTela() {
 // FUNÇÃO PARA SORTEAR UM NOME
 function sortearAmigo() {
     let indexEscolhido = parseInt(Math.random() * listaAmigos.length);
-    if (listaAmigos == []) {
+    if (listaAmigos.length == 0) {
         alert("Lista de amigos está vazia.");
+    } else if (listaAmigos.length <= 1) {
+        alert("Poucos nomes para sortear, adicione mais nomes!")                
     } else {
-        exibirResultado("resultado",`O amigo secreto sorteado é: ${listaAmigos[indexEscolhido]}`);
-        
-    }   
+        exibirResultado("resultado",`O amigo secreto sorteado é: <strong>${listaAmigos[indexEscolhido]}</strong>`);
+        limparListaDaTela();
+    } 
 }
 // FUNCÃO PARA IMPRIMIR O NOME SORTEADO
 function exibirResultado(id,texto) {
@@ -56,4 +58,8 @@ function exibirResultado(id,texto) {
 function limparCampo() {
     nome = document.querySelector("input");
     nome.value = '';
+}
+// FUNÇÃO PARA LIMPAR LISTA DE NOMES DA TELA
+function limparListaDaTela() {
+    return document.getElementById("listaAmigos").innerHTML = '';
 }

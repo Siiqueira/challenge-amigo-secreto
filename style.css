@@ -136,10 +136,13 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: var(--color-text);
     font-size: 22px;
     font-weight: bold;
     text-align: center;
+    strong {
+        color: var(--color-primary);
+    }
 }
 
 /* Botão de sortear título */
